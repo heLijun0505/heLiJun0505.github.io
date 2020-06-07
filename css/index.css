@@ -1,0 +1,109 @@
+/* 样式初始化 */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+	margin:0;
+	padding:0;
+	/*border:0;
+	*/
+    /*outline:0;
+	*/
+    /*font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+	*/
+	font-size: 14px;
+  box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,em,i {
+	font-weight:100;
+	font-style:normal;
+}
+ul,ol,li {
+	list-style-type:none;
+}
+a {
+	color:#666;
+	text-decoration:none;
+	outline:0;
+	transition: all 0.4s ease;
+}
+a:hover {
+	text-decoration:none;
+}
+.clearFix::after {
+	content: "";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+	zoom: 1;
+}
+/* header style */
+body {
+	position: relative;
+}
+.header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding: 15px 0;
+	background: rgba(51,51,51,1);
+}
+.container a.nav-trigger{
+	float: left;
+	display: block;
+	margin-left: 13px;
+	font-weight: bold;
+	font-size: 16px;
+	color: #fff;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+.container .nav-trigger .bars-icon{
+	display: inline-block;
+}
+.container .nav-trigger span:last-child{
+	margin-left: 10px;
+	font-size: 16px;
+}
+.container .search-icon {
+	float: left;
+	display: block;
+	color: #fff;
+	font-size: 16px;
+	line-height: 30px;
+	margin-left: 50px;
+	cursor: pointer;
+}
+.container .language {
+	float: left;
+	margin-left: 10px;
+	color: rgba(255,255,255,.50);
+	line-height: 30px;
+}
+.container .language a {
+	color: #fff;
+	padding: 0 12px;
+}
+.container .language a:hover {
+	color: #f45a07;
+}
+.container .language a:hover, a:focus {
+	text-decoration: none;
+}
+.container .logo {
+	float: right;
+	display: block;
+}
+.container .logo a {
+	display: block;
+	position: relative;
+}
+.container .logo a img {
+	height: 30px;
+}
+.container .logo a img.logo-white {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
