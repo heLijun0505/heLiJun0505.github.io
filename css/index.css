@@ -445,6 +445,41 @@ body {
 	text-align: center;
 	line-height: 40px;
 }
+footer {
+	padding: 15px 0;
+	background-color: #333;
+	color: #b0b0b0;
+}
+.footer_l {
+	float: left;
+}
+.footer_l img {
+	float: left;
+	width: 70px;
+}
+.footer_l .f_contact {
+	float: left;
+	margin: 10px 0 0 20px;
+}
+.footer_l .f_contact p {
+	font-size: 12px;
+}
+.footer_r {
+	float: right;
+	padding-top: 10px;
+	text-align: right;
+}
+.footer_r img {
+	height: 30px;
+	margin-bottom: 10px;
+}
+.footer_r p {
+	font-size: 12px;
+}
+.footer_r p a{
+	font-size: 12px;
+	color: #b0b0b0;
+}
 
 
 
@@ -607,6 +642,17 @@ body {
 	}
 	.more span {
 		font-size: 12px;
+	}
+	.footer_l, .footer_r, .footer_l img, .footer_l .f_contact {
+		text-align: center;
+		float: none;
+	}
+	.footer_l {
+		margin-bottom: 20px;
+	}
+	.footer_r img {
+		width: 110px;
+		margin-bottom: 10px;
 	}
 }
 @media (max-width: 568px){
