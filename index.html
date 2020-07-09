@@ -34,17 +34,73 @@
         </span>
         <h1 class="logo">
           <a href="/">
-            <img src="images/logo-color.png" title="北京科慧远咨询有限公司" class="logo-colful">
-            <img src="images/logo_white.png" title="北京科慧远咨询有限公司" class="logo-white">
+            <img data-original="images/logo-color.png" title="北京科慧远咨询有限公司" class="logo-colful">
+            <img data-original="images/logo_white.png" title="北京科慧远咨询有限公司" class="logo-white">
           </a>
         </h1>
       </div>
     </header>
     <!-- nav begin -->
-    <nav></nav>
+    <nav>
+      <p class="back_home">
+        <a href="/">返回首页</a>
+      </p>
+      <p class="nav_tit">meun</p>
+      <div class="primary_nav">
+        <a class="nav_item nav_active">
+          <em>01 —</em>
+          关于我们
+        </a>
+        <div class="nav_sub" style="display: block;">
+          <a href="javascript:;">公司概况</a>
+          <a href="javascript:;">业务优势</a>
+          <a href="javascript:;">荣誉资质</a>
+          <a href="javascript:;">典型客户</a>
+          <a href="javascript:;">人才招募</a>
+        </div>
+        <a class="nav_item">
+          <em>02 —</em>
+          业务范围
+        </a>
+        <div class="nav_sub">
+          <a href="javascript:;">业务简介</a>
+          <a href="javascript:;">高价值专利培育</a>
+          <a href="javascript:;">高价值专利运营</a>
+        </div>
+        <a class="nav_item">
+          <em>03 —</em>
+          团队服务
+        </a>
+        <div class="nav_sub">
+          <a href="javascript:;">信息通信</a>
+          <a href="javascript:;">电子电力</a>
+          <a href="javascript:;">轨道交通</a>
+        </div>
+        <a class="nav_item">
+          <em>04 —</em>
+          行业交流
+        </a>
+        <div class="nav_sub">
+          <a href="javascript:;">行业焦点</a>
+          <a href="javascript:;">知识分享</a>
+        </div>
+      </div>
+    </nav>
     <!-- nav end -->
     <!-- search_warp begin -->
-    <div class="search_warp"></div>
+    <div class="search_warp">
+      <div class="container">
+        <div class="search_box">
+          <span class="search_closed">×</span>
+          <form action="" method="get">
+            <input type="button" value="搜索" class="search_btn">
+            <span class="txt_box">
+              <input type="text" name="" id="" class="search_txt" placeholder="请输入搜索关键字">
+            </span>
+          </form>
+        </div>
+      </div>
+    </div>
     <!-- search_warp end -->
     <!-- header end -->
     <!-- content begin -->
@@ -70,7 +126,7 @@
               </div>
             </div>
             <!-- <div class="item">
-              <img src="..." alt="...">
+              <img data-original="..." alt="...">
               <div class="carousel-caption">
                 ...
               </div>
@@ -188,8 +244,8 @@
                 <li>
                   <a href="javascript:;">
                     <span class="advantage_ico">
-                      <img src="images/738137406ce54fc5b8e0ed64b3cb1b83.png">
-                      <img src="images/f515bf20dc614bbebcc2caa98f054947.png" class="ico_h">
+                      <img data-original="images/738137406ce54fc5b8e0ed64b3cb1b83.png">
+                      <img data-original="images/f515bf20dc614bbebcc2caa98f054947.png" class="ico_h">
                     </span>
                     行业优势
                   </a>
@@ -197,8 +253,8 @@
                 <li>
                   <a href="javascript:;">
                     <span class="advantage_ico">
-                      <img src="images/e7657680c76548079878ccd96708b72b.png">
-                      <img src="images/750a842a2c3345dba7139e3f2c7489f7.png" class="ico_h">
+                      <img data-original="images/e7657680c76548079878ccd96708b72b.png">
+                      <img data-original="images/750a842a2c3345dba7139e3f2c7489f7.png" class="ico_h">
                     </span>
                     团队优势
                   </a>
@@ -206,8 +262,8 @@
                 <li>
                   <a href="javascript:;">
                     <span class="advantage_ico">
-                      <img src="images/938a8b49383f4835bbef9f6fa876f572.png">
-                      <img src="images/b33544ffeac54581aabe0cd0fa556d25.png" class="ico_h">
+                      <img data-original="images/938a8b49383f4835bbef9f6fa876f572.png">
+                      <img data-original="images/b33544ffeac54581aabe0cd0fa556d25.png" class="ico_h">
                     </span>
                     管理优势
                   </a>
@@ -258,15 +314,15 @@
     <footer class="footer">
       <div class="container clearFix">
         <div class="footer_l">
-          <img src="images/aeea989ae00c4f43b069bc36010afdd3.jpg">
+          <img data-original="images/aeea989ae00c4f43b069bc36010afdd3.jpg">
           <div class="f_contact">
             <p>地址：北京市海淀区花园东路10号高德大厦</p>
-            <p>电话：+86 10 82038243 82378888</p>
-            <p>传真：+86 10 82038243</p>
+            <p>电话：+86 1082038243 82378888</p>
+            <p>传真：+86 1082038243</p>
           </div>
         </div>
         <div class="footer_r">
-          <img src="images/logo2.png">
+          <img data-original="images/logo2.png">
           <p>
             <a href="javascript:;">© 2017 科慧远咨询，版权所有：京ICP备11034667号</a>
              技术支持:
@@ -280,6 +336,7 @@
     <script src="assets/jquery/jquery-1.12.4.js"></script>
     <script src="assets/bootstrap/bootstrap.min.js"></script>
     <script src="assets/wow/wow.min.js"></script>
+    <script src="assets/lazyload/lazyload.js"></script>
     <script src="js/index.js"></script>
   </body>
 </html>
